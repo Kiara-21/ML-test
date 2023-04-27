@@ -1,25 +1,33 @@
-<input>
-<input/>
-<input name="search">
-<input name="firstname">
-<input name="lastname">
 <input type="email">
-<a>
-<a href="">
-</a>
-<img>
-</img>
+<input type="email" name="email"/>
+<input type="email" id="input-email"/>
+<input name="email" placeholder="E-Mail Address" id="input-email"/>
+<input name="email" id="input-email"/>
+<input type="password"/>
+<input type="password" name="password"/>
+<input type="password" name="password" placeholder="Password"/>
+<input type="password" name="password" id="password"/>
+<input type="text" name="search"/>
+<input name="search"/>
+<input type="text" name="search"/>
+<input type="text" placeholder="Search" aria-label="Search">
+<input type="text" placeholder="Search" id ="Search">
+<input type="text" name="search" class="search"/>
+<button>
+</button>
 <html>
-<script>
-</script>
-<script></script>
-<script src="">
-<meta charset="UTF-8" />
-<meta charset="UTF-8">
-<meta charset="UTF-8">
-<form>
-</form>
-<span>
-</span>
-<p>
-</p>
+</html>
+<a>
+</a>
+<a href="">
+<a href="https:/">
+<img/>
+<img>
+<img src=""/>
+<img src="/">
+<img src="https:/">
+<img src="https://">
+<img alt="">
+<img alt="sampletext">
+<img alt="" src="">
+<img alt="" src="https://">
