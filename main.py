@@ -10,7 +10,7 @@ soup = BeautifulSoup(html, 'html.parser')
 # извлекаем нужные элементы страницы, например, заголовок
 title = soup.title.string
 print(title)
-inputs = soup.find_all('input')
+inputs = soup.find_all()
 input_list = []
 for input_tag in inputs:
     input_list.append(input_tag)
@@ -22,7 +22,6 @@ clf = joblib.load('model.pkl')
 # функция классификации тегов на странице
 def classify_tags(html, clf, input_list):
     # тестируем классификатор
-    i=0
     for item in input_list:
         bn = item
         bn=str(item)
