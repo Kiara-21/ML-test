@@ -15,7 +15,7 @@ Y = classes
 clf = svm.SVC()
 clf.fit(X, Y)
 # тестируем классификатор
-test_objects = ['<script></script>'] # теги на странице, которые нужно классифицировать
+test_objects = ['<nav id="top-links" class="nav toggle-wrap">'] # теги на странице, которые нужно классифицировать
 X_test = vectorizer.transform(test_objects)
 predicted_classes = clf.predict(X_test)
 # выводим результаты

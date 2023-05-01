@@ -16,6 +16,9 @@
 <button>
 </button>
 <html>
+<html dir="" lang="" class="">
+<html dir="" lang="">
+<html class="">
 </html>
 <a>
 </a>
@@ -31,3 +34,16 @@
 <img alt="sampletext">
 <img alt="" src="">
 <img alt="" src="https://">
+<nav>
+</nav>
+<nav id="top-links" class="nav">
+<nav id="top" class="nav">
+<nav id="top" class="navbar">
+<nav id="" class="">
+<nav id="navbar" class="">
+<div id="nav">
+<div id="navbar">
+<div class="navbar">
+<div class="nav">
+<footer>
+</footer>
