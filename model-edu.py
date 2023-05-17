@@ -3,9 +3,9 @@ from sklearn.feature_extraction.text import CountVectorizer
 import numpy as np
 
 with open('objects.txt') as f:
-    objects = [line.rstrip() for line in f] # список всех объектов
+    objects = [line.rstrip() for line in f]
 with open('classes.txt') as f:
-    classes = [line.rstrip() for line in f]# соответствующие им классы
+    classes = [line.rstrip() for line in f]
 
 vectorizer = CountVectorizer()
 X = vectorizer.fit_transform(objects)
